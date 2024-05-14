@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#bg1 {
+    width: 100%;
+    height: 746px;
+    filter: blur(5px);
+    position: fixed;
+    z-index: -1;
+}
+
+#screen {
+    width: 100%;
+    height: 746px;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+#navbar1 {
+    /* border: 3px solid white; */
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.14);
+
+
+}
+
+#elementsnav {
+    /* border: 3px solid ; */
+    height: 70%;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+}
+
+.navmain {
+    color: black;
+    border: 3px solid rgb(90, 193, 27);
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 50px;
+    font-family: cursive;
+    background-color: #ffffff45;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+
+
+}
+
+.navmain a {
+    color:black
+}
+
+#elementsnav1 {
+    margin-bottom: 50px;
+    width: 70px;
+    padding-bottom: 30px;
+    height: 20px;
+    background-color:honeydew
+    
+}
+#elementsnav1 a{
+    color: black;
+
+}
+
+
+
+.todo-container {
+    margin-left: 10%;
+    text-align: center;
+    width: 20%;
+
+    width: 80%;
+    padding-top:10%;
+}
+
+input {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+#taskList{  
+    background-color: rgb(3, 0, 0,0.3);
+    width:fit-content;
+    padding-left:20% ;
+    text-align: center;
+    margin-left: 25%;
+
+
+
+
+}

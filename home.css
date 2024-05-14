@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: rgb(197, 125, 23);
+    --accent-color-dark: #1da357;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+    background-color:cornsilk;
+   
+}
+
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#e85b5b),url(C:\Users\sharm\OneDrive\Pictures\project\chitkara.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    margin-top: 30px;
+}
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.banner-btn{
+    margin: 70px auto 0;
+
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.hover-links {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+    margin-top: 15px;
+    
+    
+}
+
+.hover-links:hover {
+    color: var(--accent-color);
+}
+
+
+
+
+
+.nav-links ul {
+    gap: 40px;
+}
+.banner-btn a{
+    width: 255px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: 5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 00%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+
+    
+    
+ }
+.banner-btn a:hover {
+    color: black;
+}
+#sidenav {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #e76464;
+    z-index: 2;
+    
+
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#menubtn {
+    width: 50px;
+    height: 50px;
+    background-color: #e66464;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+
+    /* top-banner */
+
+.top-banner{
+    background-color: pink;
+    background-image:url("IMAGES/top\ banner\ background.jpg");
+    background-size: 290px;
+}
+
+.banner-text{
+    color:maroon;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 0px 0px 15px wheat;
+    
+}
+
+       /* NAVIGATION BAR */
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.hover-links {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+    margin-top: 15px;
+    
+    
+}
+
+.hover-links:hover {
+    color: var(--accent-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+
+
+.nav-links ul {
+    gap: 40px;
+}
+
+
+
+                                                      /* HEADER SECTION */
+
+header {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 100px;
+}
+
+.header-left {
+    max-width: 40vw;
+    padding-top: 150px;
+}
+
+.header-left h1 {
+    margin-top: 20px;
+}
+
+
+                                            /* EXAMPLES SECTION */
+.examples-header{
+    margin:50px;
+    margin-left: 311px;
+}
+
+.examples-area{
+    justify-content: space-between;
+}
+
+.examples-card {
+    width: 23%;
+    position: relative;
+    height: 300px;
+    background: black;
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url("images/OIP\ \(5\).jpeg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.examples-card:hover{
+    height: 310px;
+    width:24%
+}
+
+.card-text {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.card-text:hover {
+color:aquamarine;     
+}
+      
+                                                      /* big features section */
+
+.big-feature-section {
+        padding: 30px var(--padding-inline-section) 0;
+        background-color:cadetblue;
+        background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url("IMAGES/background\ image\ section.jpg");
+        background-size: cover;
+        
+        
+        height: 400px;
+}
+
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+    color:maroon;
+    text-shadow: 0px 0px 15px wheat;
+}
+
+
+
+
+
+                                                              /* subfooter */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+    margin-top: 50px;
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.country-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 15px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;background-color:#ebf2fa;
+    margin-top: 8px;
+   
+}
+
+@media (max-width:300px){
+    .top-banner{
+        display: block;
+        color:green ;
+    }
+}

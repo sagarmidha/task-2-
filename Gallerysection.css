@@ -1,0 +1,142 @@
+body{
+    background-image: url(IMAGES/gallerybackground.jpg);
+    background-size: cover;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+.nav-links ul {
+    gap: 70px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.nav-links{
+    margin-left: 43%;
+    list-style: none;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+.hover-links:hover{
+    color:maroon;
+    border-radius: 2px;
+    
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+.Gallery{
+    
+    gap: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.gallery-nav{
+    background-image: url(IMAGES/GALLERYMAINNAVBAR.jpg);
+}
+
+
+.Gallery-frame{
+    width: 23%;
+    position: relative;
+    height: 200px;
+    width: 370px;
+    background: black;
+    background-size: cover;
+    border-radius: 20px;  
+    text-decoration: none; 
+    color: aliceblue;
+
+}
+
+.Gallery-frame2{
+    width: 23%;
+    position: relative;
+    height: 200px;
+    width: 370px;
+    background: black;
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(IMAGES/Afghanistan\ cover\ image.jpg);
+    background-size: cover;
+    border-radius: 20px;  
+    text-decoration: none;
+    margin-top: 30px;
+    color: aliceblue;
+ }
+
+ .Gallery-frame3{
+    width: 23%;
+    position: relative;
+    height: 200px;
+    width: 370px;
+    background: black;
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(IMAGES/Afghanistan\ cover\ image.jpg);
+    background-size: cover;
+    border-radius: 20px;  
+    text-decoration: none;
+    margin-top: 30px;color: aliceblue
+ }
+
+ .Gallery-frame4{
+    width: 23%;
+    position: relative;
+    height: 200px;
+    width: 370px;
+    background: black;
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(IMAGES/Afghanistan\ cover\ image.jpg);
+    background-size: cover;
+    border-radius: 20px;  
+    text-decoration: none;
+    margin-top: 30px;color: aliceblue
+ }
+
+
+.Cover-text{
+    margin-top:160px;
+    font-size: 20px;
+}
+
+.Gallery-frame:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px gray;
+    transition: transform 0.5s ease-in-out , box-shadow 0.5s ease-in-out;
+}
+
+.Gallery-frame2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px gray;
+    transition: transform 0.5s ease-in-out , box-shadow 0.5s ease-in-out;
+}
+
+.Gallery-frame3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px gray;
+    transition: transform 0.5s ease-in-out , box-shadow 0.5s ease-in-out;
+}
+
+.Gallery-frame4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px gray;
+    transition: transform 0.5s ease-in-out , box-shadow 0.5s ease-in-out;
+}
